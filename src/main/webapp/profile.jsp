@@ -9,8 +9,12 @@
 <html>
 <head>
     <title>Title</title>
+
+
 </head>
 <body>
+
+Hello this is the profile page
 
 </body>
 </html>
