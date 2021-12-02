@@ -89,7 +89,8 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><label for="pepperoni"></label><input type="checkbox" name="toppings"
-                                                                                  id="pepperoni" value="Pepperoni"> Pepperoni
+                                                                                  id="pepperoni" value="Pepperoni">
+                    Pepperoni
                 </li>
                 <li class="list-group-item"><label for="sausage"></label><input type="checkbox" name="toppings"
                                                                                 id="sausage" value="Sausage"> Sausage
@@ -101,19 +102,22 @@
                                                                               value="bacon"> Bacon
                 </li>
                 <li class="list-group-item"><label for="green peppers"></label><input type="checkbox" name="toppings"
-                                                                                      id="green peppers" value="green peppers">
+                                                                                      id="green peppers"
+                                                                                      value="green peppers">
                     Green Peppers
                 </li>
                 <li class="list-group-item"><label for="mushrooms"></label><input type="checkbox" name="toppings"
-                                                                                  id="mushrooms" value="mushrooms"> Mushrooms
+                                                                                  id="mushrooms" value="mushrooms">
+                    Mushrooms
                 </li>
                 <li class="list-group-item"><label for="anchovies"></label><input type="checkbox" name="toppings"
-                                                                                  id="anchovies" value="anchovies"> Anchovies
+                                                                                  id="anchovies" value="anchovies">
+                    Anchovies
                 </li>
             </ul>
         </div>
 
-        <div class="row mt-3 mx-3" style="margin-top:25px ;">
+        <div class="row mt-3 mx-3" style="margin-top:25px;">
 
         </div>
         <div class="col-md-9 justify-content-center">
