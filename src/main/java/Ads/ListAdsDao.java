@@ -1,3 +1,5 @@
+package Ads;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +12,7 @@ public class ListAdsDao implements Ads {
         }
         return ads;
     }
+
 
     private List<Ad> generateAds() {
         List<Ad> ads = new ArrayList<>();
