@@ -9,17 +9,14 @@ import java.io.IOException;
 @WebServlet(name = "ViewProfileServlet", urlPatterns = "/profile")
 public class ViewProfileServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         HttpSession currentSession = request.getSession();
 
-        if((boolean) currentSession.getAttribute("isAdmin")){
-            System.out.println(currentSession.getAttribute("isAdmin"));
-            request.setAttribute("adminView", true);
-        }
+        if (currentSession.getAttribute("user") == null) {
+            response.sendRedirect("/login");
+        } else
 
-        System.out.println(currentSession.getAttribute("isAdmin"));
-
-        request.setAttribute("adminView", false);
-        request.getRequestDispatcher("/profile.jsp").forward(request, response);
+            request.getRequestDispatcher("/WEB-INF/profile.jsp").forward(request, response);
     }
 
 }
